@@ -1,0 +1,119 @@
+
+/* background color for the page */
+
+body{
+	background-color: black;
+}
+
+/*div{
+	background-color: #FAE6CE;
+	margin:10px;
+	border: solid 2px red;
+	padding: 10px;
+	width:40%;
+	font-size: 25px;
+}
+*/
+h1{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+span{
+	font-weight: bold;
+	text-align: center;
+	font-size: 30px;
+}
+
+ol{
+	list-style: none;
+	font-size: 20px;
+	color: green;
+	text-align: justify;
+
+
+}
+
+li{
+	margin-top: 30px;
+	margin-right: 20px;
+/*	margin-left: 20px;*/
+	padding: 5px;
+}
+
+div.header{
+	background-color: #C87234;
+	color: white;
+	width:40%;
+
+	text-align: center;
+	padding: 5px;
+
+}
+
+div.instruction{
+
+	width: 775px;
+	background-color: #FAE6CE;
+	margin-top: 10px;
+	padding: 10px;
+	height: 400px;
+
+
+}
+
+.randomNumber{
+	float:left;
+	width: 10%;
+	height:40px;
+	background-color: #60C782;
+
+}
+
+	
+
+.crystalImage{
+	width:60px;
+	height:60px;
+	margin-bottom:10px;
+
+}
+
+div.winsLosses{
+	width: 20%;
+	height: 30%;
+	background-color:#44FEFE;
+	padding:5px;
+	position: relative;
+	margin-bottom: 10px;
+	
+}
+div.numberToMatch{
+	background-color: #4EC06C;
+	width:150px;
+	height: 100px;
+	position: relative;
+	margin-bottom: 10px;
+
+}
+
+div.playerTotal{
+	background-color: #279382;
+	width:150px;
+	height: 100px;
+	margin:5px;
+	position: absolute;
+	text-align: top;
+ 	margin-left: 0px;
+
+}
+div.Score{
+	background-color: #279382;
+	margin-top: 5px;
+	position: relative;
+	width: 250px;
+	
+
+}
+

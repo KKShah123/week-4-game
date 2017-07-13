@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html>
 
+	<head>
+		<title> Crystals Collector Game </title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="">
+
+	</head>
+
+	<body>
+		<div class="header">
+			<h1 ="Game">CrystalsCollector!</h1>
+		</div>
+		
+		<div class = "instruction">
+			<ol>
+				<li> You will be given a randon number at the start of the game.</li>
+				<li> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
+			
+				<li>You win the game by matching your total score to random number, you lose the game if your total score goes over the random number.</li>
+				<li> The value of each crystal is hidden from you untl you click on it.</li>
+				<li>Each time when the game starts, the game will change the values of each crystal.</li>
+			</ol>
+		</div>
+
+		<div class = "numberToMatch">
+			<h2><span id = "randomNumber"></span></h2>
+		</div>
+
+		<div class ="winsLosses">
+			<h2>Wins:
+			 	<span id = "numberWins"></span>
+			 	<br>
+			 	Losses: <span id = "numberLosses"></span>
+			 </h2>
+		</div>
+
+		<div class = "crystals"> 
+		
+			<img src="assets/images/blueruby.jpg" class="crystalImage" id = "blue" alt = "Blue Ruby">
+			<img src="assets/images/greenruby.jpg" class= "crystalImage" id = "green" alt = "Green Ruby"">
+			<img src="assets/images/redruby.jpg" class="crystalImage" id = "red" alt = "Red Ruby">
+			<img src="assets/images/yellowruby.jpg" class="crystalImage" id = "yellow" alt = "Yellow Ruby">
+
+		</div>
+		<div class ="Score"> <h2> Your Total Score is:</h2>
+
+		<div class = "playerTotal">
+			<h2> 
+				<span id = "totalScore"></span>
+				
+			</h2>
+		
+		</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+	<script type="text/javascript" src = "Assets\javascript/game.js"></script>
+	</body>
+</html>
